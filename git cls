@@ -1,0 +1,254 @@
+[1mdiff --git a/bin/Day4/Dayfour.class b/bin/Day4/Dayfour.class[m
+[1mindex 4a6437b..5db10c4 100644[m
+Binary files a/bin/Day4/Dayfour.class and b/bin/Day4/Dayfour.class differ
+[1mdiff --git a/bin/Day5/Dayfive.class b/bin/Day5/Dayfive.class[m
+[1mindex 9539ec9..e1da3b6 100644[m
+Binary files a/bin/Day5/Dayfive.class and b/bin/Day5/Dayfive.class differ
+[1mdiff --git a/bin/Day6/Daysix.class b/bin/Day6/Daysix.class[m
+[1mindex b53964a..76928b4 100644[m
+Binary files a/bin/Day6/Daysix.class and b/bin/Day6/Daysix.class differ
+[1mdiff --git a/bin/Dayeight/Day8.class b/bin/Dayeight/Day8.class[m
+[1mindex 4879e86..e7402f6 100644[m
+Binary files a/bin/Dayeight/Day8.class and b/bin/Dayeight/Day8.class differ
+[1mdiff --git a/bin/Dayseven/Day7.class b/bin/Dayseven/Day7.class[m
+[1mindex 3414453..66e393a 100644[m
+Binary files a/bin/Dayseven/Day7.class and b/bin/Dayseven/Day7.class differ
+[1mdiff --git a/bin/Thirdday/Day3.class b/bin/Thirdday/Day3.class[m
+[1mindex de68f36..5ab18d3 100644[m
+Binary files a/bin/Thirdday/Day3.class and b/bin/Thirdday/Day3.class differ
+[1mdiff --git a/bin/Twoday/Day2.class b/bin/Twoday/Day2.class[m
+[1mindex 50e8ad4..b8a4a4d 100644[m
+Binary files a/bin/Twoday/Day2.class and b/bin/Twoday/Day2.class differ
+[1mdiff --git a/bin/oneday/Day1.class b/bin/oneday/Day1.class[m
+[1mindex e4bf1e7..a3d8284 100644[m
+Binary files a/bin/oneday/Day1.class and b/bin/oneday/Day1.class differ
+[1mdiff --git a/bin/revision/revisionday3.class b/bin/revision/revisionday3.class[m
+[1mindex efb1fdf..731cb53 100644[m
+Binary files a/bin/revision/revisionday3.class and b/bin/revision/revisionday3.class differ
+[1mdiff --git a/src/Day4/Dayfour.java b/src/Day4/Dayfour.java[m
+[1mindex e4f2930..159f306 100644[m
+[1m--- a/src/Day4/Dayfour.java[m
+[1m+++ b/src/Day4/Dayfour.java[m
+[36m@@ -7,6 +7,7 @@[m [mpublic class Dayfour {[m
+ 		int marks = 45;[m
+ 		if (marks <= 50) {[m
+ 			System.out.println("Grade A");[m
+[32m+[m[41m			[m
+ 		}[m
+ [m
+ 		if (40 >= marks && 50 <= marks) {[m
+[36m@@ -37,6 +38,30 @@[m [mpublic class Dayfour {[m
+ 		}[m
+ 		int num = 50;[m
+ [m
+[32m+[m[41m		[m
+[32m+[m[41m		[m
+[32m+[m		[32mint anjila = 55;[m
+[32m+[m		[32mif (anjila>=50) {[m
+[32m+[m			[32mSystem.out.println("Pass");[m
+[32m+[m		[32m}[m
+[32m+[m[41m		[m
+[32m+[m		[32mif (anjila >= 40 && anjila<=50) {[m
+[32m+[m			[32mSystem.out.println("Average");[m
+[32m+[m		[32m}[m
+[32m+[m[41m		[m
+[32m+[m		[32mint e = 10;[m
+[32m+[m		[32mint f = 11;[m
+[32m+[m[41m		[m
+[32m+[m		[32mif (e>f) {[m
+[32m+[m			[32mSystem.out.println("e is greater");[m
+[32m+[m[41m			[m
+[32m+[m		[32m}[m
+[32m+[m[41m		[m
+[32m+[m		[32mif (e<f) {[m
+[32m+[m			[32mSystem.out.println("f is greater");[m
+[32m+[m		[32m}[m
+[32m+[m[41m	[m
+[32m+[m[41m		[m
+ 	}[m
+ [m
+ }[m
+[1mdiff --git a/src/Day5/Dayfive.java b/src/Day5/Dayfive.java[m
+[1mindex 29a9ec5..a96afd0 100644[m
+[1m--- a/src/Day5/Dayfive.java[m
+[1m+++ b/src/Day5/Dayfive.java[m
+[36m@@ -19,7 +19,23 @@[m [mif (b>a);{[m
+ }[m
+ if ( c>a);{[m
+ 	System.out.println("c is greater");[m
+[32m+[m[32m}[m
+[32m+[m[32mint g = 10;[m
+[32m+[m[32mint h = 12;[m
+[32m+[m[32mint i = 15;[m
+[32m+[m
+[32m+[m[32mif (g >=h && h <= g) {[m
+[32m+[m	[32mSystem.out.println(" g is greater");[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32mif ( h >= g && g<=h) {[m
+[32m+[m	[32mSystem.out.println(" h is greater");[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32mif ( i>g && i<h) {[m
+[32m+[m	[32mSystem.out.println("i is greater");[m
+ }[m
+ 	}[m
+[32m+[m[41m	[m
+ [m
+ }[m
+[1mdiff --git a/src/Day6/Daysix.java b/src/Day6/Daysix.java[m
+[1mindex d1a2e06..b293ac9 100644[m
+[1m--- a/src/Day6/Daysix.java[m
+[1m+++ b/src/Day6/Daysix.java[m
+[36m@@ -62,24 +62,8 @@[m [mpublic class Daysix {[m
+ 			System.out.println("please input correct day");[m
+ 	}[m
+ 		[m
+[31m-	String city = "swyambhu";[m
+[31m-	[m
+[31m-	switch(city) {[m
+[31m-	case "Baneshwor":[m
+[31m-	case "Koteshwor":[m
+[31m-		System.out.println("Tinkune");[m
+[31m-		break;[m
+[31m-		[m
+[31m-	case "satdobato":[m
+[31m-	case "Gwarkho":[m
+[31m-	System.out.println("Lalitpur");[m
+[31m-	[m
+[31m-	case "swyambhu":[m
+[31m-	case "Boudha":[m
+[31m-		System.out.println("Lalitpur");[m
+[31m-		[m
+[31m-	}[m
+ 	[m
+[32m+[m	[32mString city = "swyambhu";[m
+ [m
+ 	switch(city) {[m
+ 	case "Baneshwor":[m
+[36m@@ -99,6 +83,29 @@[m [mpublic class Daysix {[m
+ 			System.out.println("Incorrect city name");[m
+ 	}[m
+ 	[m
+[32m+[m[32m//	String city = "pune";[m
+[32m+[m[41m	[m
+[32m+[m	[32mswitch (city) {[m
+[32m+[m	[32mcase "Mumbai" :[m
+[32m+[m		[32mSystem.out.println("Agra");[m
+[32m+[m[41m		[m
+[32m+[m	[32mcase "pune":[m
+[32m+[m		[32mSystem.out.println("MH");[m
+[32m+[m[41m		[m
+[32m+[m[41m	[m
+[32m+[m	[32m}[m
+[32m+[m[41m	[m
+[32m+[m	[32mint days = 1;[m
+[32m+[m	[32mif (day ==1) {[m
+[32m+[m		[32mSystem.out.println("sunday");[m
+[32m+[m	[32m}[m
+[32m+[m	[32melse if (day ==3) {[m
+[32m+[m		[32mSystem.out.println("Monday");[m
+[32m+[m	[32m}[m
+[32m+[m	[32melse {[m
+[32m+[m		[32mSystem.out.println("please input correct day");[m
+[32m+[m	[32m}[m
+[32m+[m[41m	[m
+ 	int marks = 95;[m
+ 	if (marks>90) {[m
+ 		System.out.println("Grade A");}[m
+[1mdiff --git a/src/Dayeight/Day8.java b/src/Dayeight/Day8.java[m
+[1mindex 8a2600c..8e653db 100644[m
+[1m--- a/src/Dayeight/Day8.java[m
+[1m+++ b/src/Dayeight/Day8.java[m
+[36m@@ -76,17 +76,14 @@[m [mpublic class Day8 {[m
+ 			i--;[m
+ 		}[m
+ [m
+[31m-		int i5 = 60;[m
+[31m-		while (i5 >= 6) {[m
+[31m-			System.out.println(i5);[m
+[31m-			i5 = i5 - 6;[m
+[32m+[m		[32mfor(int j=10; j>=1; j--) {[m
+[32m+[m			[32mSystem.out.println(j);[m
+ 		}[m
+[31m- int i8=1;[m
+[31m- while (i8 >=3);[m
+[31m- System.out.println(i8);{[m
+[31m- if (i8 ==3) {[m
+[31m- break;[m
+[31m- }[m
+[31m- i++;[m
+[31m- }[m
+[31m-	}[m
+[32m+[m[41m		[m
+[32m+[m[41m	[m
+[32m+[m		[32mfor(int m = 10; m<=100; +10) {[m
+[32m+[m			[32mSystem.out.println(m);[m
+[32m+[m		[32m}[m
+[32m+[m		[32m}[m
+[32m+[m[41m		[m
+[32m+[m	[32m}[m
+\ No newline at end of file[m
+[1mdiff --git a/src/Dayseven/Day7.java b/src/Dayseven/Day7.java[m
+[1mindex 0bd7d84..f8a7699 100644[m
+[1m--- a/src/Dayseven/Day7.java[m
+[1m+++ b/src/Dayseven/Day7.java[m
+[36m@@ -24,6 +24,55 @@[m [mfor (int i =5; i>=2; i--) {[m
+ [m
+ for (int i = 5; i>=10; ) {[m
+ 	System.out.println("wrong");[m
+[32m+[m[41m	[m
+[32m+[m[32m}[m
+[32m+[m[32mfor(int k =2; k<=4; k++) {[m
+[32m+[m	[32mSystem.out.println("Hy");[m
+[32m+[m[32m}[m
+[32m+[m[32mfor (int l=-2; l<=4; l++) {[m
+[32m+[m	[32mSystem.out.println("Onion");[m
+[32m+[m[32m}[m
+[32m+[m[32mfor (int m =4; m>=3; m--) {[m
+[32m+[m	[32mSystem.out.println("Joker");[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32mfor (int n = 3; n>=1; n--) {[m
+[32m+[m	[32mSystem.out.println("nabaraj");[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32mfor (int o = 2; o <=20; o =o+2) {[m
+[32m+[m	[32mSystem.out.println(o);[m
+[32m+[m[32m}[m
+[32m+[m[32mfor (int p =30; p>=3; p = p-3) {[m
+[32m+[m	[32mSystem.out.println(p);[m
+[32m+[m[32m}[m
+[32m+[m[32mfor (int i =5; i>=2; i--) {[m
+[32m+[m	[32mif(i==4) {[m
+[32m+[m		[32mbreak;[m
+[32m+[m	[32m}[m
+[32m+[m		[32mSystem.out.println(i);[m
+[32m+[m[41m	[m
+[32m+[m[32m}[m
+[32m+[m[32mfor (int i=5; i>=2; i--) {[m
+[32m+[m	[32mSystem.out.println(i);[m
+[32m+[m	[32mif(i==4) {[m
+[32m+[m		[32mbreak;[m
+[32m+[m	[32m}[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32mfor (int i=1; i<=5; i ++) {[m
+[32m+[m	[32mif (i==3) {[m
+[32m+[m		[32mcontinue;[m
+[32m+[m[41m		[m
+[32m+[m	[32m}[m
+[32m+[m	[32mSystem.out.println(i);[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32mfor (int i =1; i<=5; i++) {[m
+[32m+[m	[32mSystem.out.println(i);[m
+[32m+[m	[32mif (i ==3) {[m
+[32m+[m		[32mcontinue;[m
+[32m+[m	[32m}[m
+ }[m
+ 	}[m
+ [m
+[1mdiff --git a/src/Thirdday/Day3.java b/src/Thirdday/Day3.java[m
+[1mindex 3ee0b63..4a215ed 100644[m
+[1m--- a

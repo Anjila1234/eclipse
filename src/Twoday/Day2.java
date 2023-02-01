@@ -30,9 +30,19 @@ public class Day2 {
 		addition();
 		subtraction();
 		
+		int d = 10;
+		int e = 12;
+		
+	
+
+		addition3(d, e);
 		
 		
-		
+	}
+	
+	static void addition3(int d, int e) {
+		System.out.println(d + e);
+		System.out.println(d - e);
 	}
 
 	static void Calculator(int x, int y) {

@@ -76,17 +76,14 @@ public class Day8 {
 			i--;
 		}
 
-		int i5 = 60;
-		while (i5 >= 6) {
-			System.out.println(i5);
-			i5 = i5 - 6;
+		for(int j=10; j>=1; j--) {
+			System.out.println(j);
 		}
- int i8=1;
- while (i8 >=3);
- System.out.println(i8);{
- if (i8 ==3) {
- break;
- }
- i++;
- }
+		
+	
+		for(int m = 10; m<=100; m= m+10) {
+			System.out.println(m);
+		}
+		}
+		
 	}

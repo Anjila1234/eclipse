@@ -20,6 +20,22 @@ if (b>a);{
 if ( c>a);{
 	System.out.println("c is greater");
 }
+int g = 10;
+int h = 12;
+int i = 15;
+
+if (g >=h && h <= g) {
+	System.out.println(" g is greater");
+}
+
+if ( h >= g && g<=h) {
+	System.out.println(" h is greater");
+}
+
+if ( i>g && i<h) {
+	System.out.println("i is greater");
+}
 	}
+	
 
 }

@@ -14,6 +14,7 @@ addition3(110,113);
 //function without parameter and without return
 	static void addition() {
 		System.out.println(9+9);
+		
 	}
 	//function with parameter and without return
 	static void addition2( int x, int y) {
@@ -23,5 +24,7 @@ addition3(110,113);
 	static int addition3(int x, int y) {
 		System.out.println(x+y);
 		return x+y;
+		
+		
 	}
 }

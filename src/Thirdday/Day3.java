@@ -5,10 +5,15 @@ public class Day3 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		System.out.println("Hello");
+		System.out.println("Hello world");
 
 		addition();
 		subtraction(5, 10);
 		multiplication(10, 11);
+		addition3(10, 11);
+		add();
+		subtract(10, 15);
+		
 
 	}
 
@@ -16,30 +21,28 @@ public class Day3 {
 	static void addition() {
 		System.out.println(8 + 8);
 	}
+	
+	static void add() {
+		System.out.println(9+9);
+	}
 
-	// function withhout parameter and without return
+	// function with parameter and without return
 	static void subtraction(int x, int y) {
 		System.out.println(x - y);
 	}
+	static void subtract(int e, int f) {
+		System.out.println(e -f);
+	}
 
-	// function withhout parameter and without return
-	static void multiplication(int x, int y) {
+	// function with parameter and with return
+	static int multiplication(int x, int y) {
 		System.out.println(x * y);
+		return x * y;
+	}
 
-		System.out.println(2 > 5);
-		System.out.println(5 < 5);
-		System.out.println(6 == 6);
-		System.out.println(7 <= 5);
-		System.out.println(3 == 6);
-
-		int a1 = 5;
-		int b1 = 6;
-
-		System.out.println(a1 == b1);
-		System.out.println(true == true);
-		System.out.println(false != true);
-		System.out.println(2 == 2);
-		System.out.println(5 != 5);
+	static int addition3(int x, int y) {
+		System.out.println(x + y);
+		return x + y;
 	}
 
 }

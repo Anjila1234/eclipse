@@ -62,24 +62,8 @@ public class Daysix {
 			System.out.println("please input correct day");
 	}
 		
+	
 	String city = "swyambhu";
-	
-	switch(city) {
-	case "Baneshwor":
-	case "Koteshwor":
-		System.out.println("Tinkune");
-		break;
-		
-	case "satdobato":
-	case "Gwarkho":
-	System.out.println("Lalitpur");
-	
-	case "swyambhu":
-	case "Boudha":
-		System.out.println("Lalitpur");
-		
-	}
-	
 
 	switch(city) {
 	case "Baneshwor":
@@ -97,6 +81,29 @@ public class Daysix {
 		
 		default:
 			System.out.println("Incorrect city name");
+	}
+	
+//	String city = "pune";
+	
+	switch (city) {
+	case "Mumbai" :
+		System.out.println("Agra");
+		
+	case "pune":
+		System.out.println("MH");
+		
+	
+	}
+	
+	int days = 1;
+	if (day ==1) {
+		System.out.println("sunday");
+	}
+	else if (day ==3) {
+		System.out.println("Monday");
+	}
+	else {
+		System.out.println("please input correct day");
 	}
 	
 	int marks = 95;

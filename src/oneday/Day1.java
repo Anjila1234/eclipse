@@ -32,6 +32,12 @@ System.out.println(C-D-E);
 System.out.println(C+D-E);
 System.out.println(C-D+E);
 
+int f = 10;
+int g = 11;
+int h = 12;
+
+System.out.println(f+g+h);
+System.out.println("Hello Anjila");
 
 	}
 }
