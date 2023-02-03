@@ -13,6 +13,9 @@ public class Day3 {
 		addition3(10, 11);
 		add();
 		subtract(10, 15);
+		int a = multiplication(10, 11);
+		System.out.println(a);
+		System.out.println(a * 0.12);
 		
 
 	}
