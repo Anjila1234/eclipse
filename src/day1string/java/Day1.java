@@ -47,7 +47,9 @@ public class Day1 {
 				String country = "USA";
 				int a = country.toLowerCase().toUpperCase().length();
 				System.out.println(a);
-
+int a = 5;
+		int b = 6;
+		
 	}
 
 }
