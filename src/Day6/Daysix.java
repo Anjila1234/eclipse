@@ -118,6 +118,11 @@ public class Daysix {
 	if (marks<50);{
 		System.out.println("Fail");}
 	
+	int marks1 = 50;
+	if (marks > 45) {
+		System.out.println("Grade A");
+	}
+	
 	
 	}
 

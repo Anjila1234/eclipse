@@ -1,5 +1,7 @@
 package Day5;
 
+
+
 public class Dayfive {
 
 	public static void main(String[] args) {
@@ -35,6 +37,44 @@ if ( h >= g && g<=h) {
 if ( i>g && i<h) {
 	System.out.println("i is greater");
 }
+
+
+int d = 10;
+int e = 15;
+int f = 14;
+
+if ( d > e);{
+	System.out.println("d is greater");
+}
+if (d < e);{
+	System.out.println("e is greater");
+}
+if (f > e);{
+	System.out.println("f is greater");
+}
+
+int numA = 50;
+
+if (numA > 0 && numA <= 10) {
+	System.out.println("10% discount");
+}
+else if (numA >10 && numA <= 20) {
+	System.out.println("20% discount");
+}
+
+else if (numA > 20) {
+	System.out.println("30% discount");
+}
+
+
+int numB = 100;
+if (numB > 0 && numB < 50) {
+	System.out.println("good");
+}
+if (numB <= 100 && numB > 50) {
+	System.out.println("Best");
+}
+
 	}
 	
 

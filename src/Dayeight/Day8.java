@@ -8,6 +8,10 @@ public class Day8 {
 		for (int i = 1; i < 4; i++) {
 			System.out.println("Hello");
 		}
+		
+		for (int j = 2; j< 5; j++) {
+			System.out.println(j);
+		}
 
 		for (int i = 5; i <= 9; i++) {
 			System.out.println("Bye");
@@ -24,6 +28,10 @@ public class Day8 {
 		// Table of 7
 		for (int i = 7; i <= 70; i = i + 7) {
 			System.out.println(i);
+		}
+		
+		for (int j = 8; j <= 80; j = j +8) {
+			System.out.println(j);
 		}
 		// Table of 7 in reverse
 		for (int i = 70; i >= 7; i = i - 7) {
@@ -83,6 +91,13 @@ public class Day8 {
 	
 		for(int m = 10; m<=100; m= m+10) {
 			System.out.println(m);
+		}
+		
+		
+		int k = 2;
+		while (k <=10) {
+			System.out.println(k);
+			i++;
 		}
 		}
 		

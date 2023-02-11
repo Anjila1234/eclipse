@@ -1,4 +1,4 @@
-package Day4;
+package Day4.copy;
 
 public class Dayfour {
 
@@ -7,7 +7,7 @@ public class Dayfour {
 		int marks = 45;
 		if (marks <= 50) {
 			System.out.println("Grade A");
-
+			
 		}
 
 		if (40 >= marks && 50 <= marks) {
@@ -38,27 +38,30 @@ public class Dayfour {
 		}
 		int num = 50;
 
+		
+		
 		int anjila = 55;
-		if (anjila >= 50) {
+		if (anjila>=50) {
 			System.out.println("Pass");
 		}
-
-		if (anjila >= 40 && anjila <= 50) {
+		
+		if (anjila >= 40 && anjila<=50) {
 			System.out.println("Average");
 		}
-
+		
 		int e = 10;
 		int f = 11;
-
-		if (e > f) {
+		
+		if (e>f) {
 			System.out.println("e is greater");
-
+			
 		}
-
-		if (e < f) {
+		
+		if (e<f) {
 			System.out.println("f is greater");
 		}
-
+	
+		
 	}
 
 }

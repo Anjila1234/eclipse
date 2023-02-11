@@ -74,6 +74,30 @@ for (int i =1; i<=5; i++) {
 		continue;
 	}
 }
+    for(int u = 5; u >=10; u++) {
+	System.out.println(u);
+}
+    for(int v =5; v <=0; v --) {
+    	System.out.println(v);
+    	if (v==3) {
+    		break;
+    	}
+    	}
+
+for (int w =10; w<= 15; w++) {
+	if(w==12) {
+		break;
+	}
+		System.out.println(w);
 	}
 
+for(int z= 5; z<=10; z++) {
+	if (z==8) {
+		continue;
+	}
+	System.out.println(z);
 }
+}
+	}
+
+

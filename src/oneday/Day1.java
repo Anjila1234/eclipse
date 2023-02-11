@@ -39,5 +39,25 @@ int h = 12;
 System.out.println(f+g+h);
 System.out.println("Hello Anjila");
 
+
+int i = 11;
+int j = 12;
+int k = 15;
+
+System.out.println(i);
+System.out.println(j);
+System.out.println(k);
+
+calculator(11, 12);
+calculator(15, 14);
+
+	}
+	
+	static void calculator(int x, int y) {
+		System.out.println(x + y);
+		System.out.println(x - y);
+		System.out.println(x * y);
+		System.out.println(x / y);
+		System.out.println(x % y);
 	}
 }
