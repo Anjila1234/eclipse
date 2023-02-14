@@ -372,4 +372,63 @@ System.out.println(count5);
 
 
 
-}}
+int num10 [] = new int [4];
+
+num10 [0]= 5;
+num10 [1]= 10;
+num10 [2]= 15;
+num10 [3] = 20;
+
+for(int i =0; i< num10.length; i++) {
+	System.out.println(i);
+//	System.out.println(Arrays.toString(num10));
+//	System.out.println(num10[i]);
+
+}
+System.out.println(num10[0]);
+System.out.println(num10[1]);
+System.out.println(num10[2]);
+System.out.println(num10[3]);
+
+
+
+String cityone[] = new String[3];
+
+cityone [0]= "sindhuli";
+cityone [1] = "sarlahi";
+cityone [2]= "chitwan";
+
+for(int i =0; i< cityone.length; i++) {
+	System.out.println(i);
+	System.out.println(cityone[i]);
+}
+
+String one = "I love my father and mother";
+String two2 [] = one.split(" ");
+
+for(int i = 0; i < two2.length; i++) {
+	System.out.println(i);
+	System.out.println(two2[i]);
+	
+}
+ String citytwo [] = new String [2];
+  citytwo [0] = "lalbandi";
+  citytwo [1] = "chakmakae";
+  
+  for(int i =0; i< citytwo.length; i++) {
+	  System.out.println(i);
+	  System.out.println(citytwo[i]);
+	  
+  }
+  
+ String food1 = "Ricepudding";
+ int food2 = food1.indexOf('i');
+ System.out.println(food2);
+ 
+
+
+	 
+	 
+ }
+ 
+}

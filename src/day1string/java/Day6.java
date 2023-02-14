@@ -23,7 +23,7 @@ public class Day6 {
 		
 		for(int i = 0; i< namesa.length; i++) {
 			System.out.println(i);
-			System.out.println(namesa[0]);
+			System.out.println(namesa[i]);
 		}
 	
 ////		 System.out.println(names);
