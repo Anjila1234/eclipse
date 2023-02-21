@@ -1,4 +1,4 @@
-package day1string.java;
+package Practice;
 
 import java.util.Arrays;
 
@@ -426,7 +426,9 @@ for(int i = 0; i < two2.length; i++) {
  System.out.println(food2);
  
 
-
+String food22 = "erice";
+int food3 = food22.indexOf(0, 'e');
+System.out.println(food3);
 	 
 	 
  }

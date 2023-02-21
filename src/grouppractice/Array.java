@@ -5,7 +5,7 @@ public class Array {
 		
 		//single array/regular array
 		
-	int abc [] = new 
+	int abc [] = new int [4];
 		
 		abc [0]= 10;
 		abc [1]= 12;
@@ -13,7 +13,7 @@ public class Array {
 		abc [3]= 14;
 		
 		System.out.println(abc[0]);
-		System.out.println(abc[1]);
+		
 		
 
 		
