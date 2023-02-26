@@ -4,15 +4,15 @@ public class assignmentsopps {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		bank siddhartha = new bank ("Anjila", 02117512, 12, 1000);
-		bank laxmi = new bank ("Nabaraj", 5252525, 10, 1050);
-		bank NICASIA = new bank ("sadiksha", 323232,5, 1200);
+		bank1 siddhartha = new bank1 ("Anjila", 02117512, 12, 1000);
+		bank1 laxmi = new bank1 ("Nabaraj", 5252525, 10, 1050);
+		bank1 NICASIA = new bank1 ("sadiksha", 323232,5, 1200);
 
 //		siddhartha.banktype();
 //		laxmi.banktype();
 //		NICASIA.banktype();
 //
-//		bank [] b1 = { siddhartha, laxmi, NICASIA};
+//		bank1 [] b1 = { siddhartha, laxmi, NICASIA};
 //
 //		for(int i = 0; i< b1.length; i++) {
 //			System.out.println(b1);
@@ -105,7 +105,7 @@ public class assignmentsopps {
 	}
 
 }
-class bank {
+class bank1 {
 	String accountname;
 	int accountnumber;
 	int transactionno;
@@ -113,7 +113,7 @@ class bank {
 	String banktype;
 	
 	
-	public bank(String accountname, int accountnumber, int transactionno, int balance) {
+	public bank1(String accountname, int accountnumber, int transactionno, int balance) {
 		this.accountname = accountname;
 		this.accountnumber = accountnumber;
 		this.transactionno = transactionno;
@@ -144,5 +144,10 @@ class bank {
 		//System.out.println("insufficient balance");
 		return this.balance;
 	}
+	
+		
+		//print hello 5 times
+		
+
 	
 	}}

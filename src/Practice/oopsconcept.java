@@ -2,8 +2,8 @@ package Practice;
 
 public class oopsconcept {
 public static void main(String[] args) {
-	animals buffalo = new animals("Buff","meat", 5 );
-	animals tiger = new animals ("Sher","khan", 10);
+	animals11 buffalo = new animals11 ("Buff","meat", 5 );
+	animals11 tiger = new animals11 ("Sher","khan", 10);
 
 	
 	vehicle toyota = new vehicle("red", "le", 1234);
@@ -64,8 +64,6 @@ public static void main(String[] args) {
 		System.out.println(a11.taste);
 		System.out.println(a11.quantity);
 		
-		
-
 	}
 	}
 	}
@@ -162,34 +160,32 @@ public food (String tast, String ful, int quan) {
 		System.out.println("food is life");
 		
 		
-		
-	
-}
+	}	
+	}	
+
 	
 
 
-class animals{
+class animals11{
 	String animalfirstname;
 	String animallastname;
-	int count1;
+	int number;
 	
 	
-	
-	
-	
-	public animals( String afn, String aln, int c1 ) {
+public animals11( String afn, String aln, int c1 ) {
 		this.animalfirstname = afn;
 		this.animallastname = aln;
-		this.count1 = c1;
+		this.number = c1;
 	}
-	static  void animalname() {
-	System.out.println("animal are domestic");}
-	
-	static void animalname1() {
+	 void animalname() {
+	System.out.println("animal are domestic");
+	}
+
+   void animalname1() {
 		System.out.println("animal are wild");
 	}
 	
 	
-}
+
 }
 	

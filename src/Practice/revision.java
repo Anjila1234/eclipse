@@ -1,8 +1,7 @@
 package Practice;
 
-import java.util.Arrays;
 
-import two.String;
+
 
 public class revision {
 
@@ -199,7 +198,7 @@ public class revision {
 	String a10 = " I am learning QA";
 	String [] a11 = a10.split("a");
 	System.out.println(a11);
-	System.out.println(Arrays.toString(a11));
+//	System.out.println(Arrays.toString(a11));
 	
 	for(String m:a11) {
 		System.out.println(m);
@@ -267,7 +266,7 @@ int [][] num = {
 for (int i = 0; i< num.length; i++) {
 	System.out.println(i);
 	System.out.println(num[i]);
-	System.out.println(Arrays.toString(num[i]));
+	//System.out.println(Arrays.toString(num[i]));
 	
 	int row1 [] = num[i];
 	for(int m =0; m < row1.length; m++) {
@@ -286,7 +285,7 @@ System.out.println(num1[2][1]);
 for (int v = 0; v< num1.length; v++) {
 //	System.out.println(v);
 //	System.out.println(num1[v]);
-	System.out.println(Arrays.toString(num1[v]));
+//	System.out.println(Arrays.toString(num1[v]));
 	
 	int row2 [] = num1[v];
 	for(int u = 0; u < row2.length; u++ ) {
@@ -313,7 +312,7 @@ for (int s1:num2 ) {
 		
 		for(int i = 0; i< num4.length; i++) {
 			System.out.println(i);
-			System.out.println(Arrays.toString(num4[i]));
+	//		System.out.println(Arrays.toString(num4[i]));
 		}
 	}
 	
@@ -324,7 +323,7 @@ for (int s1:num2 ) {
 	
 	for (int l =0; l< num5.length; l++) {
 	System.out.println(l);
-	System.out.println(Arrays.toString(num5[l]));	
+//	System.out.println(Arrays.toString(num5[l]));	
 	
 	int row4 []= num5[l];
 	for(int i =0; i<row4.length; i++) {
