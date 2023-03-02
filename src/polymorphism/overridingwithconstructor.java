@@ -9,13 +9,13 @@ public class overridingwithconstructor {
 	p3.walking();
 	
 	
-	person4 p4 = new person4("Anjila kc", 25, "sindhuli");
+	person4 p4 = new person4("Anjila kc", 25);
 	p4.walking();
 	}
 
 }
 
-//different clss, same method, same sign
+//different class, same method, same sign
 
 class person3 {
 	String fullname;
@@ -33,15 +33,16 @@ class person3 {
 }
 
 class person4 extends person3{
-	String city;
-	public person4(String fn, int age, String cty) {
+
+	public person4(String fn, int age) {
 		super(fn, age);
-		this.city = cty;
-	}
-	public void walking() {
-		System.out.println("I am talking");
+		// TODO Auto-generated constructor stub
+		System.out.println(this.fullname + this.age);
 	}
 
-	
+
+	public void walking() {
+		System.out.println("I am walking");
+	}
 	
 }
