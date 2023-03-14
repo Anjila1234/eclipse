@@ -4,7 +4,7 @@ public class defaultmethodoverride {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-vegetables v = new vegetables ("brown");
+vegetables5 v = new vegetables5 ("brown");
 System.out.println(v.color);
 v.getflower();
 v.getleaf();
@@ -33,10 +33,10 @@ interface cauliflower {
 	}
 }
 
-class vegetables implements cauliflower {
+class vegetables5 implements cauliflower {
 String color;
 
-public vegetables (String co) {
+public vegetables5 (String co) {
 	this.color = co;
 }
 	@Override
@@ -54,7 +54,7 @@ public vegetables (String co) {
 	}
 }
 
-class veg extends vegetables {
+class veg extends vegetables5 {
 String size;
 	public veg(String co, String size) {
 		super(co);
@@ -66,3 +66,6 @@ String size;
 		System.out.println("small");
 	}
 }
+
+
+

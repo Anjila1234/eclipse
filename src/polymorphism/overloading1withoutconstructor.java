@@ -12,7 +12,7 @@ m.talk(5, 2);
 
 anze a = new anze();
 a.aa(01, 10);
-a.an(15);
+a.aa(15);
 	}
 
 }
@@ -34,16 +34,21 @@ class person1 {
 //same method
 //different sign
 
-
+//without constructor
 class anze {
-	public void an(int a) {
+	public void aa(int a) {
 		System.out.println(a);
 	}
 	
 	public void aa( int a , int b) {
 		System.out.println(a + b);
+		
 	}
-}
+	
+		
+	}
+	
+
 
 
 
