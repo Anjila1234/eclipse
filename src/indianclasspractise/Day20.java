@@ -12,18 +12,19 @@ public class Day20 {
 }
 
 class photograph {
-	
+
 	String color = "red";
 	static photograph p;
-	
+
 	private photograph() {
-		
+
 	}
+
 	public static photograph getphoto() {
-		if(p == null) {
+		if (p == null) {
 			System.out.println("hy");
-		  p = new photograph();
-			
+			p = new photograph();
+
 		}
 		return p;
 	}

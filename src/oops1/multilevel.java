@@ -16,6 +16,9 @@ son s = new son ("Dil","karki", "ram", "raju");
 s.displaydad();
 s.displaygname();
 s.displaygname();
+
+
+
 	}
 
 }
@@ -67,10 +70,18 @@ String dname ;
  //without constructor
  
  class granny {
+	 
 	 String firstname = "Dilkumari";
 	String lastname = "karki";
 			 
 public void name ()	{
 	System.out.println(this.firstname + this.lastname);
+}}
+class mother {
+	String mother = "kalpana";
+	
+	public void mname() {
+		System.out.println(this.mother);
+	
 }
  }

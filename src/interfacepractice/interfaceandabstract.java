@@ -5,8 +5,6 @@ public class interfaceandabstract {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		
-	
 		anjila a3 = new anjila("Anjila", 26);
 		System.out.println(a3.age);
 		System.out.println(a3.firstname);
@@ -22,10 +20,10 @@ public class interfaceandabstract {
 //two properties in abstract class
 //new class inheritance abstract class implements interface
 
-
 interface sabnam {
-	
+
 	public void save();
+
 	public void loan();
 }
 
@@ -33,14 +31,14 @@ abstract class bhagwati {
 	String firstname;
 	int age;
 
-	
 	public bhagwati(String fn, int ag) {
 		this.firstname = fn;
 		this.age = ag;
-		}
+	}
+
 	abstract public void son();
-	
-	public void displayname () {
+
+	public void displayname() {
 		System.out.println(this.firstname + this.age);
 	}
 }
@@ -69,4 +67,5 @@ class anjila extends bhagwati implements sabnam {
 	public void son() {
 		// TODO Auto-generated method stub
 		System.out.println("discount");
-	}}
+	}
+}

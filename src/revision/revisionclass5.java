@@ -21,6 +21,12 @@ public class revisionclass5 {
 			System.out.println(" 10% discount");
 			
 		}
+	
+		
+		int a = 10;
+		int b = 20;
+		
+		String c = a>b?"pass":"fail";
 	}
 
 }

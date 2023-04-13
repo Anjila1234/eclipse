@@ -12,20 +12,20 @@ a[2] = 3;
 
  
 
-try {
+//try {
 	// for (int i = 0; i < a.length + 1; i++) {
 		 System.out.println(a);
-}
 //}
-catch (ArrayIndexOutOfBoundsException e){
-	System.out.println("arrays");
-	e.getStackTrace();
-	
-	
-}
-finally {
-	System.out.println("always print");
-}
+//}
+//catch (ArrayIndexOutOfBoundsException e){
+//	System.out.println("arrays");
+//	e.getStackTrace();
+//	
+//	
+//}
+//finally {
+//	System.out.println("always print");
+//}
 	}
 
 }
